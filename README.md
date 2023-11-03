@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Product List Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a web application built using React.js to display a list of products. The application provides users with the ability to interact with the product list, including filtering, sorting, and easy navigation through a user-friendly pagination system. It aims to create a visually appealing and responsive user experience.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **List of Products**: The web page displays a list of products, each with the following attributes:
+   - Image
+   - Title
+   - Description
+   - Price
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Sorting**: Users have the option to sort the products based on their attributes, e.g., by price or category. This feature enables users to find products more efficiently.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Responsive Design**: The web page is designed to be responsive, ensuring that it adapts to different screen sizes and devices, providing a seamless user experience.
 
-### `npm test`
+5. **Smooth Transitions and Animations**: To enhance the user experience, smooth transitions and animations are integrated into the application, creating an engaging and visually appealing interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Pagination System**: A user-friendly pagination system allows users to navigate through the product list comfortably. It ensures that only a reasonable number of products are displayed on each page, improving usability.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js**: The frontend is built using the React.js library, providing a dynamic and interactive user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **styled-components**: The components are styled using styled-components, offering a clean and maintainable way to handle the styling of the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the application locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```
+   git clone https://github.com/Aarushi002/product-list.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the development server:
+   ```
+   npm start
+   ```
+## Deployment
 
-## Learn More
+The application is deployed and can be accessed online at the following link:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[https://ecommerce-filtering.vercel.app/](https://ecommerce-filtering.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can visit the deployed version of the application to explore its features without the need for local setup.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
